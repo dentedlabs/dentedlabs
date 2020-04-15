@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Title -->
-  <title>Classic Consulting | Front - Responsive Website Template</title>
+  <title>Classic Studio | Front - Responsive Website Template</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -17,23 +17,28 @@
   <!-- CSS Implementing Plugins -->
   <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/all.min.css">
   <link rel="stylesheet" href="../../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
-  <link rel="stylesheet" href="../../assets/vendor/hs-video-bg/dist/hs-video-bg.min.css">
   <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
   <link rel="stylesheet" href="../../assets/vendor/dzsparallaxer/dzsparallaxer.css">
+  <link rel="stylesheet" href="../../assets/vendor/hs-video-bg/dist/hs-video-bg.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/aos/dist/aos.css">
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="../../assets/css/theme.css">
 </head>
 <body>
   <!-- ========== HEADER ========== -->
-  <header id="header" class="header header-bg-transparent header-abs-top header-white-nav-links-lg">
+  <header id="header" class="header header-box-shadow-on-scroll header-sticky-top header-show-hide"
+          data-hs-header-options='{
+            "fixMoment": 1000,
+            "fixEffect": "slide"
+          }'>
     <div class="header-section">
       <div id="logoAndNav" class="container">
         <!-- Nav -->
         <nav class="js-mega-menu navbar navbar-expand-lg">
           <!-- Logo -->
           <a class="navbar-brand" href="index.html" aria-label="Front">
-            <img src="../../assets/svg/logos/logo-white.svg" alt="Logo">
+            <img src="../../assets/img/logos/brand.png" alt="Logo">
           </a>
           <!-- End Logo -->
 
@@ -59,7 +64,7 @@
 
           <!-- Navigation -->
           <div id="navBar" class="collapse navbar-collapse">
-            <div class="navbar-body header-abs-top-inner">
+            <div class="navbar-body header-sticky-top-inner">
               <ul class="navbar-nav">
                 <!-- Home -->
                 <li class="hs-has-mega-menu navbar-nav-item">
@@ -482,7 +487,7 @@
 
                 <!-- Button -->
                 <li class="navbar-nav-last-item">
-                  <a class="btn btn-sm btn-light transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  <a class="btn btn-sm btn-primary transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
                     Buy Now
                   </a>
                 </li>
@@ -501,207 +506,184 @@
   <!-- ========== MAIN ========== -->
   <main id="content" role="main">
     <!-- Hero Section -->
-    <div class="gradient-x-overlay-lg-navy-video">
-      <!-- Video Background -->
-      <div class="js-video-bg d-none d-md-block position-absolute w-100 h-100"
-           data-hs-video-bg-options='{
-             "type": "you-tube",
-             "videoId": "0qisGSwZym4",
-             "ratio": 0.75
-           }'>
+    <div class="container space-top-3 space-bottom-1 space-bottom-sm-2">
+      <div class="w-lg-75">
+        <h1 class="display-3 mb-5">
+          We are a
+          <span class="text-warning">
+            <span class="js-text-animation"></span>
+          </span>
+          <br>
+          full stack web agency
+        </h1>
+        <p class="lead">As well as being game-changers when it comes to technology, we push for education.</p>
       </div>
-      <!-- End Video Background -->
-
-      <div class="position-relative z-index-2">
-        <!-- Content -->
-        <div class="d-md-flex">
-          <div class="container d-md-flex align-items-md-center min-vh-md-100 text-center space-3 space-top-md-4 space-top-lg-3">
-            <div class="w-lg-85 mx-lg-auto">
-              <!-- Info -->
-              <div class="mt-5 mb-7">
-                <h1 class="display-4 text-white mb-3">Change is coming</h1>
-                <p class="lead text-white">Attract more visitors, and win more business with Front template.</p>
-              </div>
-              <!-- End Info -->
-
-              <!-- Form -->
-              <form class="js-validate w-lg-85 mx-lg-auto">
-                <div class="card p-3 mb-5">
-                  <div class="form-row input-group-borderless">
-                    <div class="col-sm mb-2 mb-md-0">
-                      <input type="text" class="form-control shadow-none" name="name" placeholder="Name" aria-label="Name" required>
-                    </div>
-                    <div class="col-sm d-sm-none">
-                      <hr class="my-0">
-                    </div>
-                    <div class="col-sm column-divider-sm-left mb-2 mb-md-0">
-                      <input type="email" class="form-control shadow-none" name="email" placeholder="Email" aria-label="Email" required>
-                    </div>
-                    <div class="col-md-auto">
-                      <button type="submit" class="btn btn-block btn-primary btn-wide">Get Started</button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-              <!-- End Form -->
-            </div>
-          </div>
-        </div>
-        <!-- End Content -->
-
-        <!-- Clients Section -->
-        <div class="position-absolute bottom-0 right-0 left-0">
-          <div class="container-fluid py-5">
-            <div class="js-slick-carousel slick"
-                 data-hs-slick-carousel-options='{
-                   "slidesToShow": 6,
-                   "autoplay": true,
-                   "autoplaySpeed": 5000,
-                   "infinite": true,
-                   "responsive": [{
-                     "breakpoint": 1200,
-                     "settings": {
-                       "slidesToShow": 4
-                     }
-                   }, {
-                     "breakpoint": 992,
-                     "settings": {
-                       "slidesToShow": 4
-                     }
-                   }, {
-                     "breakpoint": 768,
-                     "settings": {
-                       "slidesToShow": 3
-                     }
-                   }, {
-                     "breakpoint": 576,
-                     "settings": {
-                       "slidesToShow": 3
-                     }
-                   }]
-                 }'>
-              <div class="js-slide">
-                <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/kaplan-white.svg" alt="Image Description">
-              </div>
-              <div class="js-slide">
-                <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/hubspot-white.svg" alt="Image Description">
-              </div>
-              <div class="js-slide">
-                <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/stripe-white.svg" alt="Image Description">
-              </div>
-              <div class="js-slide">
-                <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/slack-white.svg" alt="Image Description">
-              </div>
-              <div class="js-slide">
-                <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/airbnb-white.svg" alt="Image Description">
-              </div>
-              <div class="js-slide">
-                <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/spotify-white.svg" alt="Image Description">
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Clients Section -->
-      </div>
-
-      <div class="d-lg-none position-absolute top-0 right-0 bottom-0 left-0 bg-img-hero" style="background-image: url(../../assets/img/1920x1080/img20.jpg);"></div>
     </div>
     <!-- End Hero Section -->
 
-    <!-- Icon Blocks Section -->
+    <!-- Video Section -->
+    <div class="container-fluid px-lg-5">
+      <div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll min-h-300rem min-h-lg-600rem" data-options='{direction: "normal"}'>
+        <div class="dzsparallaxer--target" style="height: 120%;">
+          <div class="js-video-bg position-absolute top-0 right-0 bottom-0 left-0 w-100 h-100"
+               data-hs-video-bg-options='{
+                 "videoId": "../../assets/video/working-in-office"
+               }'></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Video Section -->
+
+    <!-- Clients Section -->
+    <div class="container space-bottom-2 space-bottom-lg-3">
+      <div class="row">
+        <div class="col-lg-4 pt-7 pt-lg-0">
+          <!-- Card -->
+          <div class="card bg-primary shadow-primary-lg mt-lg-n11 p-4 p-lg-7" data-aos="fade-up">
+            <div class="text-white mb-7">
+              <span class="d-block small text-warning font-weight-bold text-cap mb-2">Who partners with Dented Labs?</span>
+              <h2 class="font-size-2 text-white">Thousands of companies, startups, including institutes, and plugin builders work with us.</h2>
+            </div>
+          </div>
+          <!-- End Card -->
+        </div>
+
+        <div class="col-lg-8 pt-7">
+          <!-- Logos -->
+          <div class="row text-center">
+            <div class="col-4 py-4">
+              <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/alphabet.svg" alt="Image Description">
+            </div>
+            <div class="col-4 py-4">
+              <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/kaplan.svg" alt="Image Description">
+            </div>
+            <div class="col-4 py-4">
+              <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/slack.svg" alt="Image Description">
+            </div>
+            <div class="col-4 py-4">
+              <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/google.svg" alt="Image Description">
+            </div>
+            <div class="col-4 py-4">
+              <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/fitbit.svg" alt="Image Description">
+            </div>
+            <div class="col-4 py-4">
+              <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/weebly.svg" alt="Image Description">
+            </div>
+            <div class="col-4 py-4">
+              <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/mapbox.svg" alt="Image Description">
+            </div>
+            <div class="col-4 py-4">
+              <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/uber.svg" alt="Image Description">
+            </div>
+            <div class="col-4 py-4">
+              <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/airbnb.svg" alt="Image Description">
+            </div>
+          </div>
+          <!-- End Logos -->
+        </div>
+      </div>
+    </div>
+    <!-- End Clients Section -->
+
+    <!-- Divider -->
+    <div class="container">
+      <div class="w-lg-65 mx-lg-auto">
+        <hr class="my-0">
+      </div>
+    </div>
+    <!-- End Divider -->
+
+    <!-- Features Section -->
     <div class="overflow-hidden">
-      <div class="container space-2 space-top-lg-3 position-relative">
+      <div class="container space-top-2 space-top-lg-3 space-bottom-3">
         <!-- Title -->
         <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-          <span class="d-block small font-weight-bold text-cap mb-2">What we do?</span>
-          <h2>Front makes designing easy and performance fast</h2>
+          <h2>Features built for scale</h2>
+          <p>Get insights to dig down into what's powering your growth the most.</p>
         </div>
         <!-- End Title -->
 
         <div class="row">
-          <div class="col-sm-4 mb-3 mb-sm-5">
-            <!-- Icon Blocks -->
-            <div class="pr-lg-6">
-              <figure class="max-w-6rem w-100 mb-3">
-                <img class="img-fluid" src="../../assets/svg/icons/icon-45.svg" alt="SVG">
-              </figure>
-              <h4>More creativity</h4>
-              <p>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
+          <div class="col-lg-8 mb-7 mb-lg-0">
+            <div class="row">
+              <div class="col-sm-6 mb-3 mb-sm-7">
+                <!-- Icon Blocks -->
+                <div class="pr-lg-6">
+                  <figure class="max-w-6rem w-100 mb-4">
+                    <img class="img-fluid" src="../../assets/svg/icons/icon-2.svg" alt="SVG">
+                  </figure>
+                  <h3 class="h4">Smart Dashboards</h3>
+                  <p class="text-body">This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
+                </div>
+                <!-- End Icon Blocks -->
+              </div>
+
+              <div class="col-sm-6 mb-3 mb-sm-7">
+                <!-- Icon Blocks -->
+                <div class="pr-lg-6">
+                  <figure class="max-w-6rem w-100 mb-4">
+                    <img class="img-fluid" src="../../assets/svg/icons/icon-1.svg" alt="SVG">
+                  </figure>
+                  <h4>Control Center</h4>
+                  <p class="text-body">Now that we've aligned the details, it's time to get things mapped out and organized.</p>
+                </div>
+                <!-- End Icon Blocks -->
+              </div>
+
+              <div class="col-sm-6 mb-3 mb-sm-0">
+                <!-- Icon Blocks -->
+                <div class="pr-lg-6">
+                  <figure class="max-w-6rem w-100 mb-4">
+                    <img class="img-fluid" src="../../assets/svg/icons/icon-15.svg" alt="SVG">
+                  </figure>
+                  <h4>Email Reports</h4>
+                  <p class="text-body">We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
+                </div>
+                <!-- End Icon Blocks -->
+              </div>
+
+              <div class="col-sm-6 mb-sm-0">
+                <!-- Icon Blocks -->
+                <div class="pr-lg-6">
+                  <figure class="max-w-6rem w-100 mb-4">
+                    <img class="img-fluid" src="../../assets/svg/icons/icon-26.svg" alt="SVG">
+                  </figure>
+                  <h4>Forecasting</h4>
+                  <p class="text-body">Staying focused allows us to turn every project we complete into something we love.</p>
+                </div>
+                <!-- End Icon Blocks -->
+              </div>
             </div>
-            <!-- End Icon Blocks -->
           </div>
 
-          <div class="col-sm-4 mb-3 mb-sm-5">
-            <!-- Icon Blocks -->
-            <div class="pr-lg-6">
-              <figure class="max-w-6rem w-100 mb-3">
-                <img class="img-fluid" src="../../assets/svg/icons/icon-5.svg" alt="SVG">
-              </figure>
-              <h4>Scale budgets efficiently</h4>
-              <p>Now that we've aligned the details, it's time to get things mapped out and organized.</p>
-            </div>
-            <!-- End Icon Blocks -->
-          </div>
+          <div class="col-sm-8 col-md-6 col-lg-4">
+            <!-- Article -->
+            <article class="position-relative">
+              <a class="card shadow-none bg-img-hero w-100 min-h-450rem transition-3d-hover" href="#" style="background-image: url(../../assets/img/400x500/img26.jpg);">
+                <div class="card-body">
+                  <h4>Adobe Ai</h4>
+                  <p class="text-body">Access to the Adobe Illustrator techniques</p>
+                </div>
+                <div class="card-footer border-0 bg-transparent pt-0">
+                  <span class="font-weight-bold">Browse tools <i class="fas fa-angle-right fa-sm ml-1"></i></span>
+                </div>
+              </a>
 
-          <div class="col-sm-4 mb-3 mb-sm-5">
-            <!-- Icon Blocks -->
-            <div class="pr-lg-6">
-              <figure class="max-w-6rem w-100 mb-3">
-                <img class="img-fluid" src="../../assets/svg/icons/icon-2.svg" alt="SVG">
+              <!-- SVG Elements -->
+              <figure class="max-w-19rem w-100 position-absolute bottom-0 right-0 z-index-n1">
+                <div class="mb-n7 mr-n7">
+                  <img class="img-fluid" src="../../assets/svg/components/dots-2.svg" alt="Image Description">
+                </div>
               </figure>
-              <h4>Smart Dashboards</h4>
-              <p>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
-            </div>
-            <!-- End Icon Blocks -->
-          </div>
-
-          <div class="col-sm-4 mb-3 mb-sm-5 mb-sm-0">
-            <!-- Icon Blocks -->
-            <div class="pr-lg-6">
-              <figure class="max-w-6rem w-100 mb-3">
-                <img class="img-fluid" src="../../assets/svg/icons/icon-1.svg" alt="SVG">
-              </figure>
-              <h4>Control Center</h4>
-              <p>Now that we've aligned the details, it's time to get things mapped out and organized.</p>
-            </div>
-            <!-- End Icon Blocks -->
-          </div>
-
-          <div class="col-sm-4 mb-3 mb-sm-0">
-            <!-- Icon Blocks -->
-            <div class="pr-lg-6">
-              <figure class="max-w-6rem w-100 mb-3">
-                <img class="img-fluid" src="../../assets/svg/icons/icon-15.svg" alt="SVG">
-              </figure>
-              <h4>Email Reports</h4>
-              <p>We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
-            </div>
-            <!-- End Icon Blocks -->
-          </div>
-
-          <div class="col-sm-4">
-            <!-- Icon Blocks -->
-            <div class="pr-lg-6">
-              <figure class="max-w-6rem w-100 mb-3">
-                <img class="img-fluid" src="../../assets/svg/icons/icon-26.svg" alt="SVG">
-              </figure>
-              <h4>Forecasting</h4>
-              <p>Staying focused allows us to turn every project we complete into something we love.</p>
-            </div>
-            <!-- End Icon Blocks -->
+              <!-- End SVG Elements -->
+            </article>
+            <!-- End Article -->
           </div>
         </div>
-
-        <!-- SVG Shapes -->
-        <figure class="position-absolute z-index-n1" style="top: -35rem; left: 50rem; width: 62rem; height: 62rem;">
-          <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 260 260">
-            <circle fill="#e7eaf3" opacity=".7" cx="130" cy="130" r="130"/>
-          </svg>
-        </figure>
-        <!-- End SVG Shapes -->
       </div>
     </div>
-    <!-- End Icon Blocks Section -->
+    <!-- End Features Section -->
+
 
     <!-- Features Section -->
     <div class="container">
@@ -762,266 +744,75 @@
     </div>
     <!-- End Features Section -->
 
-    <!-- Testimonials Section -->
-    <div class="overflow-hidden">
-      <div class="container space-2 space-lg-3">
-        <div class="row justify-content-lg-between align-items-md-center">
-          <div class="col-md-6 order-md-2 mb-11 mb-md-0">
-            <div class="position-relative">
-              <img class="img-fluid rounded" src="../../assets/img/900x900/img5.jpg" alt="Image Description">
-
-              <!-- SVG Elements -->
-              <figure class="max-w-19rem w-100 position-absolute top-0 left-0 z-index-n1">
-                <div class="mt-n7 ml-n7">
-                  <img class="img-fluid" src="../../assets/svg/components/dots-2.svg" alt="Image Description">
-                </div>
-              </figure>
-              <figure class="max-w-19rem w-100 position-absolute bottom-0 right-0 z-index-n1">
-                <div class="mb-n7 mr-n7">
-                  <img class="img-fluid" src="../../assets/svg/components/dots-2.svg" alt="Image Description">
-                </div>
-              </figure>
-              <!-- End SVG Elements -->
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-5 order-md-1">
-            <img class="max-w-15rem mb-4" src="../../assets/svg/clients-logo/hubspot-original.svg" alt="Image Description">
-
-            <div class="mb-6">
-              <blockquote class="font-size-2 text-dark text-lh-lg">The template is really nice and offers quite a large set of options. It's beautiful and the coding is done quickly and seamlessly. Thank you!</blockquote>
-            </div>
-
-            <h4 class="h3 mb-0">Tom Lowry</h4>
-            <p class="small">CEO</p>
+    <!-- Divider -->
+    <div class="container space-top-2 space-bottom-2">
+      <div class="w-lg-65 mx-lg-auto">
+        <!-- Info -->
+        <div class="position-relative z-index-2 text-center">
+          <div class="d-inline-block font-size-1 border bg-white text-center rounded-pill py-3 px-4">
+            Want to work with us? <a class="font-weight-bold ml-3" href="../pages/hire-us.html">We are hiring <span class="fas fa-angle-right ml-1"></span></a>
           </div>
         </div>
+        <!-- End Info -->
       </div>
     </div>
-    <!-- End Testimonials Section -->
+    <!-- End Divider -->
 
-    <!-- Works Section -->
-    <div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll bg-white" data-options='{direction: "reverse"}'>
-      <div class="dzsparallaxer--target">
-        <div class="container-fluid px-lg-6">
-          <div class="row justify-content-center">
-            <div class="col-3 my-4" data-parallaxanimation='[{property: "transform", value:" translate3d(0,{{val}}rem,0)", initial:"15", mid:"0", final:"-15"}]'>
-              <!-- Logo -->
-              <div class="d-none d-md-block bg-white avatar avatar-xl shadow-sm rounded-circle p-4 mx-auto">
-                <img class="avatar-img" src="../../assets/img/160x160/img17.png" alt="Image Description">
-              </div>
-              <!-- End Logo -->
-            </div>
-            <div class="col-3 mb-4" data-parallaxanimation='[{property: "transform", value:" translate3d(0,{{val}}rem,0)", initial:"5", mid:"0", final:"-5"}]'>
-              <!-- Logo -->
-              <div class="d-block bg-white avatar avatar-xl shadow-sm rounded-circle p-4 mx-auto">
-                <img class="avatar-img" src="../../assets/img/160x160/img12.png" alt="Image Description">
-              </div>
-              <!-- End Logo -->
-            </div>
-            <div class="col-3 my-4" data-parallaxanimation='[{property: "transform", value:" translate3d(0,{{val}}rem,0)", initial:"11", mid:"0", final:"-11"}]'>
-              <!-- Logo -->
-              <div class="d-none d-md-block bg-white avatar avatar-xl shadow-sm rounded-circle p-4 mx-auto">
-                <img class="avatar-img" src="../../assets/img/160x160/img13.png" alt="Image Description">
-              </div>
-              <!-- End Logo -->
-            </div>
-          </div>
-
-          <div class="row justify-content-between">
-            <div class="col-3 mb-4" data-parallaxanimation='[{property: "transform", value:" translate3d(0,{{val}}rem,0)", initial:"7", mid:"0", final:"-7"}]'>
-              <!-- Logo -->
-              <div class="d-block bg-white avatar avatar-xl shadow-sm rounded-circle p-4">
-                <img class="avatar-img" src="../../assets/img/160x160/img14.png" alt="Image Description">
-              </div>
-              <!-- End Logo -->
-            </div>
-            <div class="col-3 my-4" data-parallaxanimation='[{property: "transform", value:" translate3d(0,{{val}}rem,0)", initial:"7", mid:"0", final:"-7"}]'>
-              <!-- Logo -->
-              <div class="d-block bg-white avatar avatar-xl shadow-sm rounded-circle p-4 ml-auto">
-                <img class="avatar-img" src="../../assets/img/160x160/img15.png" alt="Image Description">
-              </div>
-              <!-- End Logo -->
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-3 offset-1 my-4" data-parallaxanimation='[{property: "transform", value:" translate3d(0,{{val}}rem,0)", initial:"15", mid:"0", final:"-15"}]'>
-              <!-- Logo -->
-              <div class="d-none d-md-block bg-white avatar avatar-xl shadow-sm rounded-circle p-4 ml-auto">
-                <img class="avatar-img" src="../../assets/img/160x160/img8.jpg" alt="Image Description">
-              </div>
-              <!-- End Logo -->
-            </div>
-            <div class="col-3 offset-2 my-4" data-parallaxanimation='[{property: "transform", value:" translate3d(0,{{val}}rem,0)", initial:"11", mid:"0", final:"-11"}]'>
-              <!-- Logo -->
-              <div class="d-none d-md-block bg-white avatar avatar-xl shadow-sm rounded-circle p-4 ml-auto">
-                <img class="avatar-img" src="../../assets/img/160x160/img6.jpg" alt="Image Description">
-              </div>
-              <!-- End Logo -->
-            </div>
-          </div>
-
-          <div class="row justify-content-between">
-            <div class="col-4" data-parallaxanimation='[{property: "transform", value:" translate3d(0,{{val}}rem,0)", initial:"11", mid:"0", final:"-11"}]'>
-              <!-- Logo -->
-              <div class="d-block bg-white avatar avatar-xl shadow-sm rounded-circle p-4 mx-auto">
-                <img class="avatar-img" src="../../assets/img/160x160/img16.png" alt="Image Description">
-              </div>
-              <!-- End Logo -->
-            </div>
-            <div class="col-4 mt-6" data-parallaxanimation='[{property: "transform", value:" translate3d(0,{{val}}rem,0)", initial:"5", mid:"0", final:"-5"}]'>
-              <!-- Logo -->
-              <div class="d-none d-sm-block bg-white avatar avatar-xl shadow-sm rounded-circle p-4 mx-auto">
-                <img class="avatar-img" src="../../assets/img/160x160/img10.jpg" alt="Image Description">
-              </div>
-              <!-- End Logo -->
-            </div>
-            <div class="col-4 mt-6" data-parallaxanimation='[{property: "transform", value:" translate3d(0,{{val}}rem,0)", initial:"15", mid:"0", final:"-15"}]'>
-              <!-- Logo -->
-              <div class="d-block bg-white avatar avatar-xl shadow-sm rounded-circle p-4 mx-auto">
-                <img class="avatar-img" src="../../assets/img/160x160/img11.jpg" alt="Image Description">
-              </div>
-              <!-- End Logo -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container space-3 space-sm-4 position-relative z-index-2">
+    <!-- Tools Section -->
+    <div class="position-relative gradient-y-gray">
+      <div class="container space-2 space-top-lg-3 space-bottom-sm-3 space-bottom-lg-4">
         <!-- Title -->
-        <div class="w-md-80 w-lg-50 text-center mx-md-auto">
-          <h2 class="h1">The complete theme for internet business</h2>
-          <p>Millions of the world's most innovative technology companies are scaling faster and more efficiently by building their businesses on Front.</p>
-          <a class="font-weight-bold" href="#">Discover how businesses use Front <i class="fas fa-angle-right fa-sm ml-1"></i></a>
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+          <h2>Building your idea is just this simple</h2>
+          <p>Everything is possible with the right tools and people!</p>
         </div>
         <!-- End Title -->
+
+        <div class="w-md-80 w-lg-50 mx-md-auto mb-5 mb-md-9">
+          <!-- Code Sample -->
+          <div class="card bg-navy mb-5">
+            <div class="card-body text-monospace font-size-1 p-6">
+              <div class="mb-6">
+                <span class="d-block text-white-70">> $ install awesome-idea</span>
+                <span class="d-block h4 text-success font-weight-normal">Everything installed!</span>
+              </div>
+              <div class="mb-6">
+                <span class="d-block text-white-70">> $ activate growth</span>
+                <span class="d-block h4 text-success font-weight-normal">analysing audience</span>
+                <span class="d-block h4 text-success font-weight-normal">generating campaign</span>
+                <span class="d-block h4 text-success font-weight-normal">audience reached!</span>
+              </div>
+              <div class="mb-0">
+                <span class="d-block text-white-70">> $ that's it?!</span>
+                <span class="d-block h4 text-success font-weight-normal">Yup, that's it.</span>
+              </div>
+            </div>
+          </div>
+          <!-- End Code Sample -->
+
+          <!-- Info -->
+          <div class="text-center mb-7">
+            <p>Not comfortable diving that deep? No worries, let's grab a coffee first!</p>
+          </div>
+          <!-- End Info -->
+        </div>
+
+        <div class="text-center">
+          <a class="btn btn-primary transition-3d-hover px-lg-7" href="./pages/hire-us.html" target="_blank">Schedule Now</a>
+        </div>
       </div>
 
-      <div class="position-absolute top-0 left-0 w-100 h-100 gradient-y-lg-white"></div>
+      <!-- SVG Bottom Shape -->
+      <figure class="position-absolute bottom-0 right-0 left-0">
+        <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
+          <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"/>
+        </svg>
+      </figure>
+      <!-- End SVG Bottom Shape -->
     </div>
-    <!-- End Works Section -->
+    <!-- End Tools Section -->
 
-    <!-- CTA Section -->
-    <div class="container space-top-2 space-top-lg-3">
-      <div class="w-lg-85 mx-lg-auto">
-        <div class="card bg-primary text-white overflow-hidden p-4">
-          <div class="row justify-content-md-start align-items-md-center text-center text-md-left">
-            <div class="col-md-6 offset-md-3 mb-3 mb-md-0">
-              <h3 class="text-white mb-1">Got a question?</h3>
-              <p class="text-white-70 mb-0">We'd love to talk about how we can help you.</p>
-            </div>
-            <div class="col-md-3 text-md-right">
-              <a class="btn btn-light transition-3d-hover" href="#">Contact Us</a>
-            </div>
-          </div>
 
-          <!-- SVG Component -->
-          <figure class="w-25 d-none d-md-block content-centered-y ml-n4">
-            <img class="img-fluid" src="../../assets/svg/illustrations/communication.svg" alt="Image Description">
-          </figure>
-          <!-- End SVG Component -->
-        </div>
-      </div>
-    </div>
-    <!-- End CTA Section -->
-
-    <!-- Team Section -->
-    <div class="container space-2 space-lg-3">
-      <!-- Title -->
-      <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-        <span class="d-block small font-weight-bold text-cap mb-2">Our Team</span>
-        <h2>Trust the professionals</h2>
-      </div>
-      <!-- End Title -->
-
-      <!-- Team Carousel -->
-      <div class="js-slick-carousel slick slick-gutters-3 mb-5 mb-lg-3"
-           data-hs-slick-carousel-options='{
-             "slidesToShow": 4,
-             "dots": true,
-             "dotsClass": "slick-pagination d-lg-none",
-             "responsive": [{
-               "breakpoint": 1200,
-                 "settings": {
-                   "slidesToShow": 3
-                 }
-               }, {
-               "breakpoint": 992,
-               "settings": {
-                 "slidesToShow": 2
-                 }
-               }, {
-               "breakpoint": 768,
-               "settings": {
-                 "slidesToShow": 2
-                 }
-               }, {
-               "breakpoint": 554,
-               "settings": {
-                 "slidesToShow": 1
-               }
-             }]
-           }'>
-        <div class="js-slide pb-6">
-          <!-- Team -->
-          <img class="img-fluid w-100 rounded" src="../../assets/img/400x500/img28.jpg" alt="Image Description">
-          <div class="card mt-n7 mx-3">
-            <div class="card-body text-center">
-              <h4 class="mb-1">Christina Kray</h4>
-              <p class="font-size-1 mb-0">Project Manager</p>
-            </div>
-          </div>
-          <!-- End Team -->
-        </div>
-
-        <div class="js-slide pb-6">
-          <!-- Team -->
-          <img class="img-fluid w-100 rounded" src="../../assets/img/400x500/img29.jpg" alt="Image Description">
-          <div class="card mt-n7 mx-3">
-            <div class="card-body text-center">
-              <h4 class="mb-1">Jeff Fisher</h4>
-              <p class="font-size-1 mb-0">CEO, Director</p>
-            </div>
-          </div>
-          <!-- End Team -->
-        </div>
-
-        <div class="js-slide pb-6">
-          <!-- Team -->
-          <img class="img-fluid w-100 rounded" src="../../assets/img/400x500/img30.jpg" alt="Image Description">
-          <div class="card mt-n7 mx-3">
-            <div class="card-body text-center">
-              <h4 class="mb-1">Lida Reidy</h4>
-              <p class="font-size-1 mb-0">Marketer</p>
-            </div>
-          </div>
-          <!-- End Team -->
-        </div>
-
-        <div class="js-slide pb-6">
-          <!-- Team -->
-          <img class="img-fluid w-100 rounded" src="../../assets/img/400x500/img27.jpg" alt="Image Description">
-          <div class="card mt-n7 mx-3">
-            <div class="card-body text-center">
-              <h4 class="mb-1">Amy Forren</h4>
-              <p class="font-size-1 mb-0">Lead Designer</p>
-            </div>
-          </div>
-          <!-- End Team -->
-        </div>
-      </div>
-      <!-- End Team Carousel -->
-
-      <!-- Info -->
-      <div class="position-relative z-index-2 text-center">
-        <div class="d-inline-block font-size-1 border bg-white text-center rounded-pill py-3 px-4">
-          Want to work with us? <a class="font-weight-bold ml-3" href="../pages/hire-us.html">We are hiring <span class="fas fa-angle-right ml-1"></span></a>
-        </div>
-      </div>
-      <!-- End Info -->
-    </div>
-    <!-- End Team Section -->
   </main>
   <!-- ========== END MAIN ========== -->
 
@@ -1046,17 +837,7 @@
                   <span class="media">
                     <span class="fas fa-location-arrow mt-1 mr-2"></span>
                     <span class="media-body">
-                      153 Williamson Plaza, Maggieberg
-                    </span>
-                  </span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link media" href="tel:1-062-109-9222">
-                  <span class="media">
-                    <span class="fas fa-phone-alt mt-1 mr-2"></span>
-                    <span class="media-body">
-                      +1 (062) 109-9222
+                      Headquarters in Hong Kong
                     </span>
                   </span>
                 </a>
@@ -1073,7 +854,6 @@
               <li class="nav-item"><a class="nav-link" href="#">About</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Careers <span class="badge badge-primary ml-1">We're hiring</span></a></li>
               <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Customers</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Hire us</a></li>
             </ul>
             <!-- End Nav Link -->
@@ -1093,20 +873,6 @@
           </div>
 
           <div class="col-6 col-md-3 col-lg">
-            <h5 class="text-white">Documentation</h5>
-
-            <!-- Nav Link -->
-            <ul class="nav nav-sm nav-x-0 nav-white flex-column">
-              <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Docs</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Status</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">API Reference</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Tech Requirements</a></li>
-            </ul>
-            <!-- End Nav Link -->
-          </div>
-
-          <div class="col-6 col-md-3 col-lg">
             <h5 class="text-white">Resources</h5>
 
             <!-- Nav Link -->
@@ -1116,14 +882,6 @@
                   <span class="media align-items-center">
                     <i class="fa fa-info-circle mr-2"></i>
                     <span class="media-body">Help</span>
-                  </span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span class="media align-items-center">
-                    <i class="fa fa-user-circle mr-2"></i>
-                    <span class="media-body">Your Account</span>
                   </span>
                 </a>
               </li>
@@ -1141,15 +899,15 @@
             <!-- Nav Link -->
             <ul class="nav nav-sm nav-white nav-x-sm align-items-center">
               <li class="nav-item">
-                <a class="nav-link" href="#">Privacy &amp; Policy</a>
+                <a class="nav-link" href="/pages/privacy.html">Privacy &amp; Policy</a>
               </li>
               <li class="nav-item opacity mx-3">&#47;</li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Terms</a>
+                <a class="nav-link" href="/pages/terms.html">Terms</a>
               </li>
               <li class="nav-item opacity mx-3">&#47;</li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Site Map</a>
+                <a class="nav-link" href="/sitemap.xml">Site Map</a>
               </li>
             </ul>
             <!-- End Nav Link -->
@@ -1159,62 +917,29 @@
             <ul class="list-inline mb-0">
               <!-- Social Networks -->
               <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon btn-soft-light" href="#">
+                <a class="btn btn-xs btn-icon btn-soft-light" href="https://facebook.com/dentedlabs">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon btn-soft-light" href="#">
-                  <i class="fab fa-google"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon btn-soft-light" href="#">
+                <a class="btn btn-xs btn-icon btn-soft-light" href="https://twitter.com/dentedlabs">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon btn-soft-light" href="#">
+                <a class="btn btn-xs btn-icon btn-soft-light" href="https://github.com/dentedlabs">
                   <i class="fab fa-github"></i>
                 </a>
               </li>
               <!-- End Social Networks -->
 
-              <!-- Language -->
-              <li class="list-inline-item">
-                <div class="hs-unfold">
-                  <a class="js-hs-unfold-invoker dropdown-toggle btn btn-xs btn-soft-light" href="javascript:;"
-                     data-hs-unfold-options='{
-                      "target": "#footerLanguage",
-                      "type": "css-animation",
-                      "animationIn": "slideInDown"
-                     }'>
-                    <img class="dropdown-item-icon" src="../../assets/vendor/flag-icon-css/flags/4x3/us.svg" alt="United States Flag">
-                    <span>United States</span>
-                  </a>
-
-                  <div id="footerLanguage" class="hs-unfold-content dropdown-menu dropdown-unfold dropdown-menu-bottom mb-2">
-                    <a class="dropdown-item active" href="#">English</a>
-                    <a class="dropdown-item" href="#">Deutsch</a>
-                    <a class="dropdown-item" href="#">Español</a>
-                    <a class="dropdown-item" href="#">Français</a>
-                    <a class="dropdown-item" href="#">Italiano</a>
-                    <a class="dropdown-item" href="#">日本語</a>
-                    <a class="dropdown-item" href="#">한국어</a>
-                    <a class="dropdown-item" href="#">Nederlands</a>
-                    <a class="dropdown-item" href="#">Português</a>
-                    <a class="dropdown-item" href="#">Русский</a>
-                  </div>
-                </div>
-              </li>
-              <!-- End Language -->
             </ul>
           </div>
         </div>
 
         <!-- Copyright -->
         <div class="w-md-75 text-lg-center mx-lg-auto">
-          <p class="text-white opacity-sm small">&copy; Front. 2020 Htmlstream. All rights reserved.</p>
+          <p class="text-white opacity-sm small">&copy; Dented Labs. 2020. All rights reserved.</p>
           <p class="text-white opacity-sm small">When you visit or interact with our sites, services or tools, we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.</p>
         </div>
         <!-- End Copyright -->
@@ -1222,18 +947,6 @@
     </div>
   </footer>
   <!-- ========== END FOOTER ========== -->
-
-  <!-- ========== SECONDARY CONTENTS ========== -->
-  <!-- Page Preloader -->
-  <div id="jsPreloader" class="page-preloader">
-    <div class="page-preloader-content-centered">
-      <div class="spinner-grow text-primary" role="status">
-        <span class="sr-only">Loading...</span>
-      </div>
-    </div>
-  </div>
-  <!-- End Page Preloader -->
-  <!-- ========== END SECONDARY CONTENTS ========== -->
 
   <!-- Go to Top -->
   <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;"
@@ -1263,27 +976,21 @@
   <!-- JS Implementing Plugins -->
   <script src="../../assets/vendor/hs-header/dist/hs-header.min.js"></script>
   <script src="../../assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="../../assets/vendor/hs-unfold/dist/hs-unfold.min.js"></script>
   <script src="../../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
-  <script src="../../assets/vendor/hs-video-bg/dist/hs-video-bg.min.js"></script>
-  <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
   <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
   <script src="../../assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+  <script src="../../assets/vendor/hs-video-bg/dist/hs-video-bg.min.js"></script>
+  <script src="../../assets/vendor/typed.js/lib/typed.min.js"></script>
+  <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script src="../../assets/vendor/aos/dist/aos.js"></script>
 
   <!-- JS Front -->
   <script src="../../assets/js/hs.core.js"></script>
-  <script src="../../assets/js/hs.validation.js"></script>
   <script src="../../assets/js/hs.slick-carousel.js"></script>
+  <script src="../../assets/js/hs.validation.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
-    $(window).on('load', function () {
-      // Page preloader
-      setTimeout(function() {
-        $('#jsPreloader').fadeOut(500)
-      }, 1000)
-    });
-
     $(document).on('ready', function () {
       // initialization of header
       var header = new HSHeader($('#header')).init();
@@ -1295,12 +1002,23 @@
         }
       }).init();
 
-      // initialization of unfold
-      var unfold = new HSUnfold('.js-hs-unfold-invoker').init();
+      // initialization of slick carousel
+      $('.js-slick-carousel').each(function() {
+        var slickCarousel = $.HSCore.components.HSSlickCarousel.init($(this));
+      });
 
       // initialization of video on background
       $('.js-video-bg').each(function () {
         var videoBg = new HSVideoBg($(this)).init();
+      });
+
+      // initialization of text animation (typing)
+      var typed = new Typed(".js-text-animation", {
+        strings: ["modern", "creative", "professional"],
+        typeSpeed: 70,
+        loop: true,
+        backSpeed: 40,
+        backDelay: 2000
       });
 
       // initialization of form validation
@@ -1308,9 +1026,10 @@
         var validation = $.HSCore.components.HSValidation.init($(this));
       });
 
-      // initialization of slick carousel
-      $('.js-slick-carousel').each(function() {
-        var slickCarousel = $.HSCore.components.HSSlickCarousel.init($(this));
+      // initialization of aos
+      AOS.init({
+        duration: 650,
+        once: true
       });
 
       // initialization of go to
