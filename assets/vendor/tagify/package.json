@@ -1,0 +1,96 @@
+{
+  "_from": "@yaireo/tagify",
+  "_id": "@yaireo/tagify@3.6.2",
+  "_inBundle": false,
+  "_integrity": "sha512-k10il7NVxI6KTo5PAxOODGjGNQ0wVaYgqKgq4MMOVb3g8DQ0bD6iVt+wa+3gBXhgSCOuCXRG30a9zU6bmBNUDA==",
+  "_location": "/@yaireo/tagify",
+  "_npmUser": {
+    "name": "vsync",
+    "email": "vsync.design@gmail.com"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@yaireo/tagify",
+    "name": "@yaireo/tagify",
+    "escapedName": "@yaireo%2ftagify",
+    "scope": "@yaireo",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@yaireo/tagify/-/tagify-3.6.2.tgz",
+  "_shasum": "082c772ed99b47c7e14f6a19e8777a30d8c55c7f",
+  "_spec": "@yaireo/tagify",
+  "_where": "D:\\wamp\\www\\front-v1.0",
+  "author": {
+    "name": "Yair Even-Or",
+    "email": "vsync.design@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/yaireo/tagify/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "lightweight, efficient Tags input component in Vanilla JS / React / Angular [super customizable, tiny size & top performance]",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-transform-destructuring": "^7.5.0",
+    "@babel/preset-env": "^7.5.5",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "beepbeep": "^1.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-bump": "^3.1.3",
+    "gulp-cached": "^1.1.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-css-globbing": "^0.2.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-filter": "^6.0.0",
+    "gulp-git": "^2.9.0",
+    "gulp-insert": "^0.5.0",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-tag-version": "^1.3.1",
+    "gulp-tap": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-umd": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.1",
+    "jest": "^24.9.0",
+    "jest-puppeteer": "^4.3.0",
+    "path": "^0.12.7",
+    "puppeteer": "^1.20.0",
+    "run-sequence": "^2.2.1",
+    "semver": "^6.3.0"
+  },
+  "homepage": "https://github.com/yairEO/tagify",
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "license": "MIT",
+  "main": "./dist/tagify.min.js",
+  "name": "@yaireo/tagify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yairEO/tagify.git"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "jest"
+  },
+  "version": "3.6.2"
+}

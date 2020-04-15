@@ -1,0 +1,30 @@
+/*------------------------------------
+  Tables
+------------------------------------*/
+
+.table {
+  .btn {
+    white-space: nowrap;
+  }
+}
+
+.table-heighlighted {
+  thead th {
+    border-bottom-color: $table-border-highlighted-color;
+    border-top: none;
+  }
+
+  tfoot td {
+    border-top: ($table-border-width * 2) solid $table-border-highlighted-color;
+  }
+}
+
+.table-light-bordered {
+  border-color: $table-border-light-color;
+
+  thead th,
+  th,
+  td {
+    border-color: $table-border-light-color;
+  }
+}

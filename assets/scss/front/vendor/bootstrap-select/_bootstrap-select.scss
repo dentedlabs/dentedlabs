@@ -1,0 +1,57 @@
+/*------------------------------------
+  Select
+------------------------------------*/
+
+.js-selectpicker {
+  display: none;
+}
+
+.dropdown-select {
+  &.bootstrap-select {
+    li {
+      .dropdown-item {
+        &.opt {
+          padding-left: $dropdown-item-padding-x;
+        }
+      }
+    }
+  }
+
+  &.bootstrap-select {
+    .bs-searchbox {
+      padding-right: $dropdown-item-padding-x;
+      padding-left: $dropdown-item-padding-x;
+    }
+  }
+
+  &.bootstrap-select {
+    .dropdown-header {
+      .text {
+        font-size: $bs-select-dropdown-header-font-size;
+        font-weight: $bs-select-dropdown-header-font-weight;
+        color: $bs-select-dropdown-header-color;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &.bootstrap-select.show-tick {
+    .dropdown-menu {
+      .selected {
+        span.check-mark {
+          top: $bs-select-dropdown-check-mark-top-offset;
+        }
+      }
+    }
+  }
+
+  &.bootstrap-select {
+    .dropdown-menu li a span.check-mark {
+      font-size: $bs-select-dropdown-check-font-size;
+    }
+  }
+
+  .form-control {
+    margin-bottom: $bs-select-dropdown-form-control-margin-y;
+  }
+}

@@ -1,0 +1,68 @@
+/*------------------------------------
+  Summernote Editor
+------------------------------------*/
+
+.note-modal-footer {
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px;
+
+  .note-btn {
+    float: inherit;
+  }
+}
+
+.summernote-editor {
+  .note-editor.note-frame {
+    border-color: $summernote-frame-border-color;
+
+    .note-statusbar {
+      background-color: $summernote-statusbar-bg-color;
+      border-top-color: $summernote-statusbar-border-color;
+    }
+  }
+
+  .note-toolbar {
+    background-color: $summernote-toolbar-bg-color;
+
+    > .note-btn-group {
+      border: $summernote-btn-group-border-width $summernote-btn-group-border-type $summernote-btn-group-border-color;
+    }
+
+    .note-dropdown-menu {
+      min-width: $summernote-dropdown-menu-min-width;
+      border-color: $summernote-dropdown-menu-border-color;
+      box-shadow: $summernote-dropdown-menu-box-shadow;
+      @include border-radius($summernote-dropdown-menu-border-radius);
+      padding: $summernote-dropdown-menu-padding-y $summernote-dropdown-menu-padding-x;
+    }
+
+    .note-color .note-dropdown-menu {
+      min-width: $summernote-note-color-dropdown-menu-min-width;
+      padding: $summernote-note-color-dropdown-menu-padding-y $summernote-note-color-dropdown-menu-padding-x;
+    }
+
+    .note-dropdown-item {
+      padding: $summernote-dropdown-menu-item-padding-y $summernote-dropdown-menu-item-padding-x;
+    }
+  }
+
+  .note-btn {
+    &:focus,
+    &:hover {
+      background-color: $summernote-note-btn-hover-bg-color;
+    }
+  }
+
+  .note-dropdown-item {
+    &:hover {
+      color: $summernote-dropdown-item-hover-color;
+      background-color: $summernote-dropdown-item-hover-bg-color;
+    }
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+}

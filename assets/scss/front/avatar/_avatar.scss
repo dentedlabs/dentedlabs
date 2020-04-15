@@ -1,0 +1,30 @@
+/*------------------------------------
+  Avatar
+------------------------------------*/
+
+.avatar {
+  position: relative;
+  display: inline-block;
+  width: $avatar-width;
+  height: $avatar-height;
+  @include border-radius($avatar-img-border-radius);
+
+  &-img {
+    max-width: 100%;
+    height: auto;
+    @include border-radius($avatar-img-border-radius);
+  }
+
+  &-initials {
+    font-size: $avatar-font-size;
+    font-weight: $avatar-font-weight;
+  }
+
+  &-circle {
+    @include border-radius($avatar-circle-border-radius);
+
+    .avatar-img {
+      @include border-radius($avatar-circle-border-radius);
+    }
+  }
+}
