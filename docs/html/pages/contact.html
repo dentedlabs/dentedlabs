@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Title -->
-  <title>Hire Us | Front - Responsive Website Template</title>
+  <title>Contacts Agency | Front - Responsive Website Template</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -17,6 +17,7 @@
   <!-- CSS Implementing Plugins -->
   <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/all.min.css">
   <link rel="stylesheet" href="../../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/leaflet/dist/leaflet.css">
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="../../assets/css/theme.css">
@@ -105,90 +106,178 @@
   <!-- ========== MAIN ========== -->
   <main id="content" role="main">
     <!-- Hero Section -->
-    <div class="bg-img-hero" style="background-image: url(../../assets/svg/components/abstract-shapes-12.svg);">
-      <div class="container space-top-3 space-top-lg-4 space-bottom-2">
-        <div class="w-md-80 w-lg-60 text-center mx-md-auto">
-          <h1>Got a project for us?</h1>
-          <p>We help brands and platforms turn big ideas into beautiful digital products and experiences.</p>
+    <div class="position-relative">
+      <div class="bg-img-hero" style="background-image: url(../../assets/svg/components/abstract-shapes-12.svg);">
+        <div class="container space-top-3 space-top-lg-4 space-bottom-2 position-relative z-index-2">
+          <div class="w-md-80 w-lg-60 text-center mx-md-auto mb-5 mb-md-9">
+            <h1>Contact us</h1>
+            <p>We'd love to talk about how we can help you.</p>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 mb-3 mb-md-0 mb-md-n11">
+              <!-- Card -->
+              <a class="card text-center h-100 transition-3d-hover" href="#">
+                <div class="card-body p-lg-5">
+                  <figure class="max-w-8rem w-100 mx-auto mb-4">
+                    <img class="img-fluid" src="../../assets/svg/icons/icon-7.svg" alt="SVG">
+                  </figure>
+                  <h3 class="h4">Knowledgebase</h3>
+                  <p class="text-body mb-0">We're here to help with any questions or code.</p>
+                </div>
+                <div class="card-footer font-weight-bold py-3 px-lg-5">
+                  Contact support <i class="fas fa-angle-right fa-sm ml-1"></i>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+
+            <div class="col-md-4 mb-3 mb-md-0 mb-md-n11">
+              <!-- Card -->
+              <a class="card text-center h-100 transition-3d-hover" href="#">
+                <div class="card-body p-lg-5">
+                  <figure class="max-w-8rem w-100 mx-auto mb-4">
+                    <img class="img-fluid" src="../../assets/svg/icons/icon-4.svg" alt="SVG">
+                  </figure>
+                  <h3 class="h4">FAQ</h3>
+                  <p class="text-body mb-0">Search our FAQ for answers to anything you might ask.</p>
+                </div>
+                <div class="card-footer font-weight-bold py-3 px-lg-5">
+                  Visit FAQ <i class="fas fa-angle-right fa-sm ml-1"></i>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+
+            <div class="col-md-4 mb-md-n11">
+              <!-- Card -->
+              <a class="card text-center h-100 transition-3d-hover" href="#">
+                <div class="card-body p-lg-5">
+                  <figure class="max-w-8rem w-100 mx-auto mb-4">
+                    <img class="img-fluid" src="../../assets/svg/icons/icon-44.svg" alt="SVG">
+                  </figure>
+                  <h3 class="h4">Developer APIs</h3>
+                  <p class="text-body mb-0">Check out our development quickstart guide.</p>
+                </div>
+                <div class="card-footer font-weight-bold py-3 px-lg-5">
+                  Contact sales <i class="fas fa-angle-right fa-sm ml-1"></i>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- SVG Shape -->
+      <figure class="position-absolute bottom-0 right-0 left-0">
+        <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1921 273">
+          <polygon fill="#fff" points="0,273 1921,273 1921,0 "/>
+        </svg>
+      </figure>
+      <!-- End SVG Shape -->
     </div>
     <!-- End Hero Section -->
 
-    <!-- Hire Us Form Section -->
-    <div class="container space-2 space-bottom-lg-3">
-      <form class="js-validate row justify-content-lg-center">
-        <div class="col-lg-8">
-          <!-- Input -->
-          <div class="js-form-message mb-4 mb-md-6">
-            <label class="input-label">Your name</label>
-            <input type="text" class="form-control" name="firstName" placeholder="Jeff Fisher" aria-label="Jeff Fisher" required data-msg="Please enter your frist name.">
-          </div>
-          <!-- End Input -->
+    <!-- Contact Form Section -->
+    <div class="container space-2 space-lg-3">
+      <!-- Title -->
+      <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+        <h2>Tell us about yourself</h2>
+        <p>Whether you have questions or you would just like to say hello, contact us.</p>
+      </div>
+      <!-- End Title -->
 
-          <!-- Input -->
-          <div class="js-form-message mb-4 mb-md-6">
-            <label class="input-label">Your email address</label>
-            <input type="email" class="form-control" name="emailAddress" placeholder="jackwayley@gmail.com" aria-label="jackwayley@gmail.com" required data-msg="Please enter a valid email address.">
-          </div>
-          <!-- End Input -->
-
-          <!-- Input -->
-          <div class="mb-4 mb-md-6">
-            <label class="input-label">Your company name <span class="text-muted font-weight-normal ml-1">(optional)</span></label>
-            <input type="text" class="form-control" placeholder="JackWayley Inc." aria-label="JackWayley Inc.">
-          </div>
-          <!-- End Input -->
-
-          <!-- Platform -->
-          <div class="mb-4 mb-md-6">
-            <label class="input-label">Choose your platform <span class="text-muted font-weight-normal ml-1">(optional)</span></label>
-
-            <!-- Button Group -->
-            <div class="btn-group btn-group-toggle btn-group-segment d-flex" data-toggle="buttons">
-              <label class="btn flex-fill active">
-                <input type="checkbox" name="options" id="option1"> Web
-              </label>
-              <label class="btn flex-fill">
-                <input type="checkbox" name="options" id="option2"> Mobile app
-              </label>
-              <label class="btn flex-fill">
-                <input type="checkbox" name="options" id="option3"> Others
-              </label>
+      <div class="w-lg-80 mx-auto">
+        <!-- Contacts Form -->
+        <form class="js-validate">
+          <div class="row">
+            <!-- Input -->
+            <div class="col-sm-6 mb-4">
+              <div class="js-form-message">
+                <label class="input-label">Your name</label>
+                <input type="text" class="form-control" name="name" placeholder="Jeff Fisher" aria-label="Jeff Fisher" required
+                       data-msg="Please enter your name.">
+              </div>
             </div>
-            <!-- End Button Group -->
-          </div>
-          <!-- End Platform -->
+            <!-- End Input -->
 
-          <!-- Budget Custom Select -->
-          <div class="js-form-message mb-4 mb-md-6">
-            <label class="input-label">Tell us about your budget</label>
-            <select class="form-control custom-select" required data-msg="Please select your budget.">
-              <option value="" selected>$20,000 to $50,000</option>
-              <option value="budget1">$20,000 to $50,000</option>
-              <option value="budget2">$100,000 to $200,000</option>
-              <option value="budget3">$200,000+</option>
-            </select>
+            <!-- Input -->
+            <div class="col-sm-6 mb-4">
+              <div class="js-form-message">
+                <label class="input-label">Your email address</label>
+                <input type="email" class="form-control" name="email" placeholder="jackwayley@gmail.com" aria-label="jackwayley@gmail.com" required
+                       data-msg="Please enter a valid email address.">
+              </div>
+            </div>
+            <!-- End Input -->
+
+            <div class="w-100"></div>
+
+            <!-- Input -->
+            <div class="col-sm-6 mb-4">
+              <div class="js-form-message">
+                <label class="input-label">Subject</label>
+                <input type="text" class="form-control" name="subject" placeholder="Web design" aria-label="Web design" required
+                       data-msg="Please enter a subject.">
+              </div>
+            </div>
+            <!-- End Input -->
+
+            <!-- Input -->
+            <div class="col-sm-6 mb-4">
+              <div class="js-form-message">
+                <label class="input-label">Your phone number</label>
+                <input type="number" class="form-control" name="phone" placeholder="1-800-643-4500" aria-label="1-800-643-4500" required
+                       data-msg="Please enter a valid phone number.">
+              </div>
+            </div>
+            <!-- End Input -->
           </div>
-          <!-- End Budget Custom Select -->
 
           <!-- Input -->
-          <div class="js-form-message mb-4 mb-md-6">
-            <label class="input-label">Tell us about your project</label>
-            <textarea class="form-control" rows="4" name="answer" placeholder="Hi there, I would like to ..." aria-label="Hi there, I would like to ..." required data-msg="Please enter a reason."></textarea>
+          <div class="js-form-message mb-6">
+            <label class="input-label">How can we help you?</label>
+            <div class="input-group">
+              <textarea class="form-control" rows="4" name="text" placeholder="Hi there, I would like to ..." aria-label="Hi there, I would like to ..." required
+                        data-msg="Please enter a reason."></textarea>
+            </div>
           </div>
           <!-- End Input -->
 
           <div class="text-center">
-            <div class="mb-2">
-              <button type="submit" class="btn btn-primary">Let's Start Working Together</button>
-            </div>
+            <button type="submit" class="btn btn-primary btn-wide transition-3d-hover mb-4">Submit</button>
             <p class="small">We'll get back to you in 1-2 business days.</p>
           </div>
-        </div>
-      </form>
+        </form>
+        <!-- End Contacts Form -->
+      </div>
     </div>
-    <!-- End Hire Us Form Section -->
+    <!-- End Contact Form Section -->
+
+    <!-- Leaflet -->
+    <div class="container-fluid mb-3">
+      <div id="map" class="min-h-450rem rounded"
+           data-hs-leaflet-options='{
+             "map": {
+               "scrollWheelZoom": false,
+               "coords": [37.4040344, -122.0289704]
+             },
+             "marker": [
+               {
+                 "coords": [37.4040344, -122.0289704],
+                 "icon": {
+                   "iconUrl": "../../assets/svg/components/map-pin.svg",
+                   "iconSize": [50, 45]
+                 },
+                 "popup": {
+                   "text": "Test text!"
+                 }
+               }
+             ]
+            }'></div>
+    </div>
+    <!-- End Leaflet -->
   </main>
   <!-- ========== END MAIN ========== -->
 
@@ -656,10 +745,12 @@
   <script src="../../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
   <script src="../../assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
   <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script src="../../assets/vendor/leaflet/dist/leaflet.js"></script>
 
   <!-- JS Front -->
   <script src="../../assets/js/hs.core.js"></script>
   <script src="../../assets/js/hs.validation.js"></script>
+  <script src="../../assets/js/hs.leaflet.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -691,6 +782,15 @@
             }
           }
         });
+      });
+
+      // initialization of leaflet
+      $('#map').each(function () {
+        var leaflet = $.HSCore.components.HSLeaflet.init($(this)[0]);
+
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+          id: 'mapbox/light-v9'
+        }).addTo(leaflet);
       });
 
       // initialization of go to
