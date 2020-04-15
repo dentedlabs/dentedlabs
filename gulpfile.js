@@ -122,7 +122,7 @@ function minCSS() {
     ])
     .pipe(cleanCSS({compatibility: 'ie11'}))
     .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('./dist/assets/css/'));
+    .pipe(gulp.dest('./docs/assets/css/'));
 }
 
 
@@ -156,7 +156,7 @@ function minJS() {
     ])
     .pipe(concat('theme.min.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('./dist/assets/js/'));
+    .pipe(gulp.dest('./docs/assets/js/'));
 }
 
 
@@ -188,7 +188,7 @@ function copyVendors() {
       './node_modules/*tagify/**/*',
       './node_modules/*typed.js/**/*',
     ])
-    .pipe(gulp.dest('./dist/assets/vendor/'))
+    .pipe(gulp.dest('./docs/assets/vendor/'))
 };
 
 

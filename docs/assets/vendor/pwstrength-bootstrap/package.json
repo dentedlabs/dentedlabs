@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      "pwstrength-bootstrap@3.0.6",
+      "/Users/gram/code/dented/homepage"
+    ]
+  ],
+  "_from": "pwstrength-bootstrap@3.0.6",
+  "_id": "pwstrength-bootstrap@3.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-P5WyjqyjeAuAeG6PtYbH7zB5LEIyTFIRhcYabhPbw0KeRGoQzbuQ8NtzHVKRKEXeT7HB5ZYEcjqHWEZOVRQM6A==",
+  "_location": "/pwstrength-bootstrap",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "pwstrength-bootstrap@3.0.6",
+    "name": "pwstrength-bootstrap",
+    "escapedName": "pwstrength-bootstrap",
+    "rawSpec": "3.0.6",
+    "saveSpec": null,
+    "fetchSpec": "3.0.6"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/pwstrength-bootstrap/-/pwstrength-bootstrap-3.0.6.tgz",
+  "_spec": "3.0.6",
+  "_where": "/Users/gram/code/dented/homepage",
+  "author": {
+    "name": "Alejandro Blanco",
+    "email": "alejandro.b.e@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ablanco/jquery.pwstrength.bootstrap/issues"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  },
+  "description": "jQuery plugin for Twitter Bootstrap that provides rulesets for visualy displaying the quality of a users typed in password.",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-eslint": "^22.0.0",
+    "grunt-jasmine-node": "^0.3.1",
+    "grunt-shell": "^3.0.1",
+    "jsdom": "^9.12.0"
+  },
+  "homepage": "https://github.com/ablanco/jquery.pwstrength.bootstrap",
+  "keywords": [
+    "bootstrap",
+    "password",
+    "strength",
+    "meter",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "license": "(GPL-3.0 OR MIT)",
+  "name": "pwstrength-bootstrap",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ablanco/jquery.pwstrength.bootstrap.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "3.0.6"
+}
