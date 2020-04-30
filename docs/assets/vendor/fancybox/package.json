@@ -1,28 +1,32 @@
 {
-  "_from": "@fancyapps/fancybox",
+  "_args": [
+    [
+      "@fancyapps/fancybox@3.5.7",
+      "/Users/Denis/codes/codewith/dentedlabs"
+    ]
+  ],
+  "_from": "@fancyapps/fancybox@3.5.7",
   "_id": "@fancyapps/fancybox@3.5.7",
   "_inBundle": false,
   "_integrity": "sha512-rcEtu8t+WnmqIDV/Wfm1yvy/nDdwc7YV25j9HLxGC2/WOsUhk9rcWg2nB8g1BrjRt9zaoADdjHTU6ILYTJzBBg==",
   "_location": "/@fancyapps/fancybox",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "@fancyapps/fancybox",
+    "raw": "@fancyapps/fancybox@3.5.7",
     "name": "@fancyapps/fancybox",
     "escapedName": "@fancyapps%2ffancybox",
     "scope": "@fancyapps",
-    "rawSpec": "",
+    "rawSpec": "3.5.7",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "3.5.7"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@fancyapps/fancybox/-/fancybox-3.5.7.tgz",
-  "_shasum": "12f8734663ec6eae7f9236b92ca236e6e07fdfd5",
-  "_spec": "@fancyapps/fancybox",
+  "_spec": "3.5.7",
   "_where": "/Users/Denis/codes/codewith/dentedlabs",
   "author": {
     "name": "fancyApps"
@@ -30,8 +34,6 @@
   "bugs": {
     "url": "https://github.com/fancyapps/fancybox/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "Touch enabled, responsive and fully customizable jQuery lightbox script",
   "devDependencies": {
     "del": "^2.2.2",

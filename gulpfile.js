@@ -160,7 +160,7 @@ function minJS() {
     .pipe(gulp.dest('./docs/assets/js/'));
 }
 
-// Copy Vendors - a utility to copy client-side dependencies into a folder
+// // Copy Vendors - a utility to copy client-side dependencies into a folder
 function copyVendors() {
   return gulp
     .src([
@@ -262,7 +262,7 @@ function copyFontAwesome() {
 function copySVG() {
   return gulp
     .src([
-      './assets/svg/*icons/**/*',
+      './assets/svg/**/*',
     ])
     .pipe(gulp.dest('./docs/assets/svg/'))
 };
@@ -277,4 +277,4 @@ gulp.task('copyTagify', copyTagify);
 gulp.task('copyFancybox', copyFancybox);
 gulp.task('copyFontAwesome', copyFontAwesome);
 gulp.task('copySVG', copySVG);
-gulp.task('dist', gulp.series(minCSS, minJS, copyVendors, copyHSVendors, copyNoSubVendors, copyTagify, copyFontAwesome, copySVG));
+gulp.task('dist', gulp.series(minCSS, minJS, copyVendors, copyHSVendors, copyNoSubVendors, copyTagify, copyFancybox, copyFontAwesome, copySVG));

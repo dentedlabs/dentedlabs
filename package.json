@@ -1,12 +1,15 @@
 {
-  "name": "Front",
+  "name": "DentedLabs",
   "version": "3.0.1",
-  "description": "Front - Responsive Website Template",
+  "description": "Dented Labs",
   "main": "gulpfile.js",
   "author": "htmlstream",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "git@github.com:dentedlabs/dentedlabs.git",
+  "license": "UNLICENSED",
+  "private": true,
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
@@ -35,7 +38,7 @@
     "flag-icon-css": "^3.4.5",
     "flatpickr": "^4.6.3",
     "ion-rangeslider": "^2.3.0",
-    "jquery": "^3.4.1",
+    "jquery": "3.4.1",
     "jquery-countdown": "^2.2.0",
     "jquery-migrate": "^3.1.0",
     "jquery-validation": "^1.19.1",
