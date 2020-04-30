@@ -2,7 +2,7 @@
   "_args": [
     [
       "leaflet@1.6.0",
-      "/Users/gram/code/dented/homepage"
+      "/Users/Denis/codes/codewith/dentedlabs"
     ]
   ],
   "_from": "leaflet@1.6.0",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/leaflet/-/leaflet-1.6.0.tgz",
   "_spec": "1.6.0",
-  "_where": "/Users/gram/code/dented/homepage",
+  "_where": "/Users/Denis/codes/codewith/dentedlabs",
   "bugs": {
     "url": "https://github.com/Leaflet/Leaflet/issues"
   },

@@ -2,7 +2,7 @@
   "_args": [
     [
       "aos@2.3.4",
-      "/Users/gram/code/dented/homepage"
+      "/Users/Denis/codes/codewith/dentedlabs"
     ]
   ],
   "_from": "aos@2.3.4",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/aos/-/aos-2.3.4.tgz",
   "_spec": "2.3.4",
-  "_where": "/Users/gram/code/dented/homepage",
+  "_where": "/Users/Denis/codes/codewith/dentedlabs",
   "author": {
     "name": "Michał Sajnóg",
     "email": "michal.sajnog@hotmail.com"

@@ -2,7 +2,7 @@
   "_args": [
     [
       "dropzone@5.7.0",
-      "/Users/gram/code/dented/homepage"
+      "/Users/Denis/codes/codewith/dentedlabs"
     ]
   ],
   "_from": "dropzone@5.7.0",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/dropzone/-/dropzone-5.7.0.tgz",
   "_spec": "5.7.0",
-  "_where": "/Users/gram/code/dented/homepage",
+  "_where": "/Users/Denis/codes/codewith/dentedlabs",
   "bugs": {
     "url": "https://gitlab.com/meno/dropzone/issues",
     "email": "m@tias.me"

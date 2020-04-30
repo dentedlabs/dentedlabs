@@ -2,7 +2,7 @@
   "_args": [
     [
       "flatpickr@4.6.3",
-      "/Users/gram/code/dented/homepage"
+      "/Users/Denis/codes/codewith/dentedlabs"
     ]
   ],
   "_from": "flatpickr@4.6.3",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/flatpickr/-/flatpickr-4.6.3.tgz",
   "_spec": "4.6.3",
-  "_where": "/Users/gram/code/dented/homepage",
+  "_where": "/Users/Denis/codes/codewith/dentedlabs",
   "author": {
     "name": "Gregory",
     "email": "gregory.mkv@gmail.com"

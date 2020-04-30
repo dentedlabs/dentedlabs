@@ -2,7 +2,7 @@
   "_args": [
     [
       "typed.js@2.0.11",
-      "/Users/gram/code/dented/homepage"
+      "/Users/Denis/codes/codewith/dentedlabs"
     ]
   ],
   "_from": "typed.js@2.0.11",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/typed.js/-/typed.js-2.0.11.tgz",
   "_spec": "2.0.11",
-  "_where": "/Users/gram/code/dented/homepage",
+  "_where": "/Users/Denis/codes/codewith/dentedlabs",
   "author": {
     "name": "Matt Boldt",
     "email": "me@mattboldt.com"

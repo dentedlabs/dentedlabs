@@ -2,7 +2,7 @@
   "_args": [
     [
       "ion-rangeslider@2.3.1",
-      "/Users/gram/code/dented/homepage"
+      "/Users/Denis/codes/codewith/dentedlabs"
     ]
   ],
   "_from": "ion-rangeslider@2.3.1",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/ion-rangeslider/-/ion-rangeslider-2.3.1.tgz",
   "_spec": "2.3.1",
-  "_where": "/Users/gram/code/dented/homepage",
+  "_where": "/Users/Denis/codes/codewith/dentedlabs",
   "author": {
     "name": "Denis Ineshin",
     "email": "ionden.tech@gmail.com",

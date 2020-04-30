@@ -22,6 +22,8 @@
     "gulp-uglify-es": "^2.0.0"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "@yaireo/tagify": "^3.6.2",
     "aos": "^2.3.4",
     "bootstrap": "^4.4.1",
@@ -38,7 +40,9 @@
     "jquery-migrate": "^3.1.0",
     "jquery-validation": "^1.19.1",
     "leaflet": "^1.6.0",
+    "popper.js": "^1.16.1",
     "pwstrength-bootstrap": "^3.0.5",
+    "slick-carousel": "^1.8.1",
     "summernote": "^0.8.12",
     "typed.js": "^2.0.11"
   }

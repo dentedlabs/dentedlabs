@@ -2,7 +2,7 @@
   "_args": [
     [
       "jquery-validation@1.19.1",
-      "/Users/gram/code/dented/homepage"
+      "/Users/Denis/codes/codewith/dentedlabs"
     ]
   ],
   "_from": "jquery-validation@1.19.1",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/jquery-validation/-/jquery-validation-1.19.1.tgz",
   "_spec": "1.19.1",
-  "_where": "/Users/gram/code/dented/homepage",
+  "_where": "/Users/Denis/codes/codewith/dentedlabs",
   "author": {
     "name": "Jörn Zaefferer",
     "email": "joern.zaefferer@gmail.com",

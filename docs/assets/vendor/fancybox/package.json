@@ -1,0 +1,80 @@
+{
+  "_from": "@fancyapps/fancybox",
+  "_id": "@fancyapps/fancybox@3.5.7",
+  "_inBundle": false,
+  "_integrity": "sha512-rcEtu8t+WnmqIDV/Wfm1yvy/nDdwc7YV25j9HLxGC2/WOsUhk9rcWg2nB8g1BrjRt9zaoADdjHTU6ILYTJzBBg==",
+  "_location": "/@fancyapps/fancybox",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@fancyapps/fancybox",
+    "name": "@fancyapps/fancybox",
+    "escapedName": "@fancyapps%2ffancybox",
+    "scope": "@fancyapps",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@fancyapps/fancybox/-/fancybox-3.5.7.tgz",
+  "_shasum": "12f8734663ec6eae7f9236b92ca236e6e07fdfd5",
+  "_spec": "@fancyapps/fancybox",
+  "_where": "/Users/Denis/codes/codewith/dentedlabs",
+  "author": {
+    "name": "fancyApps"
+  },
+  "bugs": {
+    "url": "https://github.com/fancyapps/fancybox/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Touch enabled, responsive and fully customizable jQuery lightbox script",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-header": "^1.8.8",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.4"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "homepage": "https://fancyapps.com/fancybox/3/",
+  "keywords": [
+    "touch",
+    "responsive",
+    "lightbox",
+    "fancybox",
+    "gallery",
+    "jQuery",
+    "plugin"
+  ],
+  "license": "GPL-3.0",
+  "main": "dist/jquery.fancybox.js",
+  "name": "@fancyapps/fancybox",
+  "peerDependencies": {
+    "jquery": ">=1.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fancyapps/fancybox.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "style": "dist/jquery.fancybox.css",
+  "version": "3.5.7"
+}
