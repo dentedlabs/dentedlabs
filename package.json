@@ -41,7 +41,7 @@
     "jquery": "3.4.1",
     "jquery-countdown": "^2.2.0",
     "jquery-migrate": "^3.1.0",
-    "jquery-validation": "^1.19.1",
+    "jquery-validation": "^1.19.3",
     "leaflet": "^1.6.0",
     "popper.js": "^1.16.1",
     "pwstrength-bootstrap": "^3.0.5",
